@@ -1,0 +1,40 @@
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+h2,h3,ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background: 
+        linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
+        url(fotos/perrito.jpg);
+        background-size: auto;
+}
+
+
+h1{
+    margin: 1rem ;
+    padding: 2rem;
+    background:rgba(255,255,255,0.5);
+    border-radius: 20px;
+    border-style:inset;
+    backdrop-filter: blur(5px)
+    
+}
+div.texto{
+    margin: 1rem ;
+    padding: 2rem;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    line-height: 2rem;
+    border-bottom: 1px gray;
+}
