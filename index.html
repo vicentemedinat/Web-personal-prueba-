@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vicente Medina</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
-</head>
-<body>
-<div class="texto">
- <h1>Hola! bienvenido a mi primera página web</h1><br>
- <h3> Soy estudiante de 4to semestre de diseño  la Universidad de Chile</h3>
-<h2>Contacto</h2>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.8/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.8/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <style>
+    body {
+      
+      margin: 0;
+      overflow:hidden;
+    }
+
+    .overlay-text {
+      position:absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+      font-size: 2rem;
+      font-family: Arial, sans-serif;
+      z-index: 10;        
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+    
+    <div class="overlay-text">
+ <h2>HolaAAAaaa bienvenido a mi primera página web jijiji</h2>
+ <h3> Soy estudiante de 4to semestre de diseño en la Universidad de Chile</h3>
+<p>Contacto:</p>
 <ul>
-    <li><a href="https://github.com/vicentemedinat" target="_blank">Github</a> </li>
+    <li><img src="https://i.pinimg.com/736x/4a/c9/13/4ac913a4c32be99ac46cccbee9b107f5.jpg" width="50"><a href="https://github.com/vicentemedinat" target="_blank">Github</a></li>
+
+
+      <li><img src="https://i.pinimg.com/736x/d1/35/4e/d1354eac5442654ad856263191152931.jpg" width="50"><a href="https://www.behance.net/vicentitoxp" target="_blank">Behance</a></li>
+
+     <li><img src="https://i.pinimg.com/736x/7e/0f/fb/7e0ffb629cc07f584634326a4aa7ebb6.jpg" width="50"><a href="https://instagram.com/ripvicentito" target="_blank">Instagram</a></li>
 
     
-    <li><a href="https://www.behance.net/vicentitoxp" target="_blank">Behance</a></li>
-
-    <li><a href="https://instagram.com/ripvicentito" target="_blank">Instagram</a></li>
-    <li><a href="https://open.spotify.com/user/_meedina_?si=a8bda72a14bd4391" target="_blank">Perfil spotify jiji</a></li>
+      <li><img src="https://i.pinimg.com/736x/35/c5/60/35c560691951e6af9436b9dfd5fa37e5.jpg" class="spotify" width="50"><a href="https://open.spotify.com/user/_meedina_?si=a8bda72a14bd4391" target="_blank">Perfil spotify jiji</a></li>
 
 </ul>
 </div>
-</body>
+</main>
+ <script src="sketch.js">
+
+ </script>
+ 
+  </body>
 </html>
